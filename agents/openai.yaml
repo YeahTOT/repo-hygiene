@@ -1,0 +1,13 @@
+interface:
+  display_name: 算法仓库治理
+  short_description: 体检算法仓库，识别冗余代码、实验文件和目录规范问题
+  default_prompt: 使用 $repo-hygiene 的 Audit 模式检查当前算法仓库，输出中文清理报告，不修改或删除任何文件。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
